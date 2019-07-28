@@ -1,7 +1,6 @@
-# Create Cloud Block
-A boilerplate generator for building [Gutenberg Cloud](https://gutenbergcloud.org/) blocks.
+# SM Gutenberg Block
 
-This generator is inspired by both [Create React App](https://github.com/facebook/create-react-app) and [Create Guten Block](https://github.com/ahmadawais/create-guten-block). However, it is only intended to serve as a boilerplate and not a zero-configuration toolkit.
+This project uses [Create Cloud Block App](https://github.com/front/create-cloud-block) and [Create Guten Block](https://github.com/ahmadawais/create-guten-block).
 
 ## Prerequisites
 
@@ -11,6 +10,7 @@ NPM version 5.5.1 or higher
 ## Overview
 
 ```
+$ npm install -g create-cloud-block
 $ npx create-cloud-block my-block
 $ cd my-block
 ```
