@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+
+// The class name needs to match the names of the category and block
+.wp-block-cloudblocks-sm-main-content {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  .sm-what-we-do {
+    position: relative;
+    padding: 5rem 0 0;
+    .container {
+      margin: 0 auto;
+      max-width: 1280px;
+      width: 90%;
+      .inner-content-wrapper {
+        margin-bottom: 1rem;
+        &.center-align {
+          text-align: center;
+        }
+        h2 {
+          font-weight: 400;
+          line-height: 1.5;
+        }
+        .sm-section-small-title {
+          padding: 0.5rem 1rem;
+          display: inline-block;
+          vertical-align: top;
+          font-weight: 500;
+          line-height: 1.3;
+          border-radius: 6.1875rem;
+          transition: 0.2s ease-in-out;
+        }
+        .card-container {
+          width: 33.33%;
+          margin-left: auto;
+          left: auto;
+          right: auto;
+          display: inline-block;
+          text-align: center;
+          vertical-align: top;
+          .card {
+            text-align: center;
+            margin-bottom: 1.75rem;
+            position: relative;
+            margin: 0.5rem 0 1rem 0;
+            -webkit-transition: -webkit-box-shadow 0.25s;
+            transition: -webkit-box-shadow 0.25s;
+            transition: box-shadow 0.25s;
+            transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
+            border-radius: 2px;
+            box-shadow: none !important;
+            .card-image {
+              .card-content{
+                font-weight: 400;
+              }
+              .sm-icon-bg {
+                position: relative;
+                z-index: 1;
+                line-height: 0.7;
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center;
+                font-size: 0.9375rem;
+                border-radius: 0.25rem;
+                transition: 0.3s ease-in-out;
+                border-radius: 50%;
+                width: 5rem;
+                height: 5rem;
+                font-size: 3rem;
+                &.sm-red {
+                  color: #de4437;
+                  background: rgba(222, 68, 55, 0.1);
+                }
+                &.sm-blue {
+                  color: #377dff;
+                  background: rgba(55, 125, 255, 0.1);
+                }
+                &.sm-green {
+                  color: #00c9a7;
+                  background: rgba(0, 201, 167, 0.1);
+                }
+                img {
+                  position: absolute;
+                  top: 90%;
+                  left: 50%;
+                  border-radius: 50%;
+                  width: 3rem;
+                  height: 3rem;
+                  -webkit-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+                }
+              }
+            }
+          }
+          @media only screen and (max-width: 769px) {
+            width: 100%;
+          }
+        }
+        .media {
+          width: 100%;
+          .sm-img-design {
+            width: 75%;
+            margin: 0 auto;
+            margin-bottom: 3rem;
+            max-width: 100%;
+            height: auto;
+          }
+        }
+        p {
+          font-size: 0.85rem;
+          color: #77838f;
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+        }
+        @media only screen and (min-width: 769px) {
+          padding-left: 15.5rem;
+          padding-right: 15.5rem;
+        }
+      }
+      .sm-what-we-do-header-container {
+        .sm-what-we-do-header-text {
+          font-size: 1.4rem;
+          line-height: 1.5;
+          margin-bottom: 2rem;
+        }
+        @media only screen and (max-width: 600px) {
+          padding: 0 15px;
+          width: 100%;
+          margin-left: auto;
+          left: auto;
+          right: auto;
+        }
+        @media only screen and (min-width: 601px) {
+          text-align: center;
+          margin-left: 25%;
+          width: 50%;
+          left: auto;
+          right: auto;
+          padding: 0 0.5rem;
+        }
+      }
+      @media only screen and (min-width: 1201px) {
+        width: 1140px;
+      }
+      @media only screen and (min-width: 993px) {
+        width: 960px;
+      }
+      @media only screen and (min-width: 601px) {
+        width: 90%;
+      }
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+      }
+    }
+  }
+}

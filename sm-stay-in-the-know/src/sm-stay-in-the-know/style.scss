@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+// The class name needs to match the names of the category and block
+.wp-block-cloudblocks-sm-stay-in-the-know {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  .sm-stay-in-the-know {
+    position: relative;
+    padding: 5rem 0 0;
+    .container {
+      margin: 0 auto;
+      max-width: 1280px;
+      width: 90%;
+      .inner-content-wrapper {
+        margin-bottom: 4rem;
+        &.center-align {
+          text-align: center;
+        }
+        h2 {
+          font-weight: 400;
+          line-height: 1.5;
+          margin: 0;
+        }
+        p {
+          margin: 0;
+        }
+      }
+    }
+    .sm-input-container {
+      .sm-input-box {
+        display: block;
+        color: #1e2022;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #d4d7dd;
+        transition: all 0.2s ease-in-out;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.07) !important;
+        z-index: 2;
+        padding: 1rem 30px;
+        font-size: 1rem;
+        line-height: 1.5;
+        position: relative;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        width: 70%;
+        height: 2.25rem;
+        margin-bottom: 0;
+        border-color: transparent !important;
+        border-radius: 6.1875rem;
+        margin: 0 auto;
+        &:focus {
+          outline: none;
+        }
+      }
+      @media only screen and (min-width: 993px) {
+        margin-left: 25%;
+        width: 50%;
+        left: auto;
+        right: auto;
+      }
+      @media only screen and (min-width: 601px) {
+        margin-left: 16.6666666667%;
+        width: 66.6666666667%;
+      }
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+        margin-left: auto;
+      }
+    }
+  }
+}
